@@ -118,3 +118,5 @@ app.post("/login", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server sedang berjalan di http://localhost:${port}`);
 });
+
+module.exports = app;
